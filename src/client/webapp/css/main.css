@@ -1,0 +1,46 @@
+body {
+    margin: 0 20px;
+}
+
+.container {
+    min-height: 700px;
+    height: 100%;
+    margin-top: 10px;
+    background-color: rgba(234, 179, 179, 0.96);
+}
+
+.box {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*.comment-form {*/
+    /**/
+/*}*/
+
+/*.comment-box {*/
+    /*width: 80%;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+.comment {
+    width: 60%;
+    margin: 20px;
+}
+
+.comment-header {
+    margin-left: 5px;
+}
+
+.comment-title {
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+.show-hide-comments-button {
+    margin-top: 20px;
+    float: right;
+}

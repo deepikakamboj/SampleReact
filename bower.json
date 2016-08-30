@@ -1,0 +1,31 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~15.3.1",
+    "jquery": "~3.1.0",
+    "bootstrap": "~3.3.7"
+  },
+  "install": {
+    "path": "src/client/webapp/vendor",
+    "sources": {
+      "jquery": [
+        "bower_components/jquery/dist/jquery.min.js"
+      ],
+      "react": [
+        "bower_components/react/react.min.js",
+        "bower_components/react/react-dom.min.js"
+      ],
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.min.css"
+      ]
+    }
+  }
+}
