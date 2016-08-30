@@ -24,6 +24,8 @@ class CommentForm extends React.Component {
         let name = this._name;
         let comment = this._comment;
         this.props.addComment(name.value, comment.value);
+        name.value = "";
+        comment.value = "";
     }
 
 }
